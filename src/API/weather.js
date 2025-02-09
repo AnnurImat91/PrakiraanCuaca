@@ -1,6 +1,6 @@
   const weatherTranslations = {
     "Sunny": "Cerah",
-    "Partly cloudy": "Sebagian berawan",
+    "Partly Cloudy": "Sebagian berawan",
     "Cloudy": "Berawan",
     "Overcast": "Mendung",
     "Mist": "Berkabut",
