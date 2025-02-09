@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peta Wilayah dan Cuaca</title>
+    <link rel="stylesheet" href="src/style/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-body-tertiary">
+    <nav
+      style="display: flex; justify-content: space-around; align-items: center"
+      class="navbar bg-body-tertiary"
+    >
+      <div>
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/logo.png"
+            alt="logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+            style="margin-right: 10px;"
+          />WEBSITE PRAKIRAAN CUACA</a
+        >
+      </div>
+      <div id="search-container" class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="text"
+          id="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button
+          class="btn btn-outline-success"
+          type="submit"
+          onclick="searchArea()"
+        >
+          Cari
+        </button>
+      </div>
+    </nav>
+
+    <div id="map"></div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div div class="col">
+          <h3>Cuaca Saat Ini:</h3>
+          <h2 id="city"></h2>
+          <p id="current-weather"></p>
+        </div>
+        <div div class="col">
+          <h3>Prakiraan Per Jam:</h3>
+          <div id="forecast"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+
+    <script src="src/API/geo.js"></script>
+    <script src="src/API/weather.js"></script>
+  </body>
+</html>

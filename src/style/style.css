@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#map {
+    height: 350px;
+    width: 100%;
+}
+
+.container {
+    background: linear-gradient(225deg, #50b5ff, #008dff);
+    padding-top: 10px;
+    background-color: li;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.container .row .col #forecast {
+    text-decoration: none;
+    text-align: left;
+}
