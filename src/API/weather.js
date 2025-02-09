@@ -15,6 +15,7 @@
     "Fog": "Kabut",
     "Freezing fog": "Kabut beku",
     "Patchy light drizzle": "Gerimis ringan",
+    "Partly Cloudy": "Sebagian Berawan",
     "Light drizzle": "Gerimis",
     "Freezing drizzle": "Gerimis beku",
     "Heavy freezing drizzle": "Gerimis beku lebat",
