@@ -8,6 +8,8 @@
     "Patchy rain possible": "Hujan ringan mungkin",
     "Patchy snow possible": "Salju ringan mungkin",
     "Patchy sleet possible": "Hujan es ringan mungkin",
+    "Thundery outbreaks in nearby": "Petir Menggelegar di dekatnya",
+    "Cloudy" : "Berawan",
     "Patchy freezing drizzle possible": "Gerimis beku mungkin",
     "Thundery outbreaks possible": "Mungkin ada badai petir",
     "Blowing snow": "Badai salju",
