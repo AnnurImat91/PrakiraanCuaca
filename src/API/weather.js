@@ -67,7 +67,7 @@
       const data = await response.json();
 
       if (data.error) {
-        alert("Lokasi tidak ditemukan!");
+        alert("Lokasi Cuaca tidak ada di API!");
         return;
       }
 
